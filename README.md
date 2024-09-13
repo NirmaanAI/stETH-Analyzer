@@ -19,3 +19,10 @@
 - Represents: Current MOR token balances of users on the Arbitrum network.
 - Contains: User address and their MOR token balance.
 - Significance: Provides a snapshot of how much MOR each user holds on Arbitrum after claiming and potentially trading.
+
+### NOTE:
+A `user_Activity_Summary` spreadsheet displaying key details for each user, including total stETH deposited, withdrawn, MOR claimed, and their current MOR balance. You can now analyze users' behaviors based on these metrics.
+
+Q. How to Interpret? :
+- `Frequent Claims + Withdrawals = Farming/Dumping behavior`
+- `Frequent Staking + Low Withdrawals + Claiming = DCA behavior`
